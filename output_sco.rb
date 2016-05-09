@@ -23,8 +23,8 @@ addresses.each_with_index do |address, i|
   inSco = false
   scotcodes.each do |s|
     inSco = true if (address[0].include?(" #{s}") and ["GBR", "POL"].include?(address[3]))
+    inSco = false if address[0].include?("London")
   end
-
   scot_addresses << (address+["https://offshoreleaks.icij.org/nodes/#{address[5]}"]) if inSco
   puts "Scanned #{i+1} of #{total} entries" if (i%1000).eql?(0)
 end

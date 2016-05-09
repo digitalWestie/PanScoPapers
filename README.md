@@ -10,4 +10,4 @@ I couldn't just use postcodes to filter addresses as that was too permissive, I 
 
 The data is decent, but it could still do with some cleaning. I found there were a fair few addresses that were definitely in the UK but were coming up as being in Poland. 
 
-It would be worthwhile modifying the script to find these disrepancies, ie, addresses in the UK but with the wrong country code.
+It would be worthwhile modifying the script to find these discrepancies, ie, addresses in the UK but with the wrong country code.

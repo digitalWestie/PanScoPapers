@@ -4,6 +4,10 @@
 
 A ruby script that finds addresses in Scotland from the PanamaPapers dataset (https://offshoreleaks.icij.org/pages/database)
 
+The results have been output into: https://github.com/digitalWestie/PanScoPapers/blob/master/output.csv
+
+For quick access I've added a "link" column so you can jump straight to the relevant node explorer on the ICIJ database ( https://offshoreleaks.icij.org/).
+
 *What did I learn?*
 
 I couldn't just use postcodes to filter addresses as that was too permissive, I had to use the country codes too. 

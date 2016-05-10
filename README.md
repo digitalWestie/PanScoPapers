@@ -18,4 +18,4 @@ It would be worthwhile modifying the script to find these discrepancies, ie, add
 
 ### What next?
 
-The addresses are linked to entities, officers, and intermediaries. The next step is to pull those in and provide alternative visualisations to the ones already on the ICIJ site. 
+The addresses are linked to entities, officers, and intermediaries. The next step is to pull those in and provide alternative visualisations to the ones already on the ICIJ site. These are pretty good though, [here's an example](https://offshoreleaks.icij.org/nodes/249507).
